@@ -18,10 +18,13 @@ jobs:
         run: npm ci
 
       - name: Build Application
+        env:
+          NEXT_PUBLIC_API_BASE_URL: "https://ignite-devstore-api-one-zeta.vercel.app"
+          APP_URL: "http://localhost:3000"
         run: npm run build
 
       - name: Start Application
-        run: npm run start
+        run: npm start &
 
       - name: Cypress run
         uses: cypress-io/github-action@v6
