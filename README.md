@@ -1,6 +1,6 @@
 # Devstore
 
-###Projeto criado na trilha ignite da rocketseat, para aprofundamento de estudos em Next Js.
+### Projeto criado na trilha ignite da rocketseat, para aprofundamento de estudos em Next Js.
 
 ### Tecnoçogias Utilizadas
 - React js + Next js
